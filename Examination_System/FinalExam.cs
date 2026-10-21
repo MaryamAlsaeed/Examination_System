@@ -6,6 +6,14 @@ namespace Examination_System
 {
     internal class FinalExam : Exam
     {
+        public FinalExam()
+        {
+        }
+
+        public FinalExam(int time, int numberOfQuestions) : base(time, numberOfQuestions)
+        {
+        }
+
         public override void CreateTypeListOfQs()
         {
             int TypeOfQuestion;
