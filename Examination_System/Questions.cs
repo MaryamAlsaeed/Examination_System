@@ -8,7 +8,7 @@ namespace Examination_System
     {
         // Question class is abstract class bec. its the base class
         // and we dont want it to be instantiated and also to contain abstract methods
-        public string? Header { get; set; }
+        public virtual string? Header { get; set; }
         public string? Body { get; set; }
         public double Mark { get; set; }
         public Answers[]? Answers { get; set; }
